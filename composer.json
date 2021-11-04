@@ -1,0 +1,27 @@
+{
+    "name": "coderjerk/elephant-bird",
+    "type": "library",
+    "description": "A simple library to request data from the Twitter APIv2 endpoints",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Devine",
+            "email": "jerk@coderjerk.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coderjerk\\ElephantBird\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "symfony/var-dumper": "^5.1",
+        "phpunit/phpunit": "^9.4"
+    }
+}
